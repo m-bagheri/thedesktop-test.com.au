@@ -30,7 +30,7 @@ class BookFactory extends Factory
             'description' => fake()->realText(),
             'category' => fake()->randomElement(['Fiction', 'Non-fiction', 'Other']),
             'isbn' => fake()->numerify('###-#####-####'),
-            'file_url' => UploadedFile::fake()->create('seeder.pdf')->store('uploads'),
+            'file_url' => UploadedFile::fake()->create('seeder.pdf')->store('public/uploads'),
         ];
     }
 }
