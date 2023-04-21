@@ -1,5 +1,5 @@
 <h2>About</h2>
-<p>This is a Library project created with Laravel 9 framework
+<p>This is a Library project created with Laravel 9 framework and VueJS</p>
 
 
 <h2>How to run it</h2>
